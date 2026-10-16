@@ -37,8 +37,8 @@ The page loads Google Fonts when online and falls back to local system fonts whe
 
 ## Make it yours
 
-1. Replace every `Your Name`, `yourname`, and `YN` placeholder in `index.html` with your name and initials. Update the `<title>`, description, and Open Graph text in the document head.
-2. Replace the sample About copy, skills list, and Journey entries with accurate details. The existing education, course, and experience examples are explicitly marked as placeholders; do not leave them looking like real qualifications.
+1. The portfolio is personalized for Khanpara Prit, age 20, a final-year B.Tech student in Computer Science and Engineering and a fresher full-stack developer open to remote opportunities. Update these details in `index.html` if they change.
+2. The skills section lists HTML, CSS, JavaScript, Python, Node.js, and MySQL. Adjust the list to reflect your current skills and experience accurately.
 3. Replace the four concept cards with projects you have actually built. Update their titles, descriptions, categories, and technology badges. Set each “Live demo” and “Source” link to a real destination. The current project concepts are not claims of completed work.
 4. Add optimized screenshots under `assets/projects/` and use them in the matching project previews if desired. Provide descriptive `alt` text for every content image.
 5. Replace `hello@example.com` with an address you monitor. The GitHub link currently points to [Khanpara-Prit](https://github.com/Khanpara-Prit); replace it if necessary. Add a real LinkedIn profile URL to the contact section.
