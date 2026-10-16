@@ -94,23 +94,6 @@
     sections.forEach((section) => sectionObserver.observe(section));
   }
 
-  const filterButtons = document.querySelectorAll(".filter-button");
-  const projectCards = document.querySelectorAll(".project-card");
-  filterButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      const selectedFilter = button.dataset.filter;
-      filterButtons.forEach((filterButton) => {
-        const isSelected = filterButton === button;
-        filterButton.classList.toggle("is-selected", isSelected);
-        filterButton.setAttribute("aria-pressed", String(isSelected));
-      });
-      projectCards.forEach((card) => {
-        const categories = card.dataset.categories.split(" ");
-        card.hidden = selectedFilter !== "all" && !categories.includes(selectedFilter);
-      });
-    });
-  });
-
   const form = document.querySelector(".contact-form");
   const formFeedback = document.querySelector(".form-feedback");
   const fields = [...form.querySelectorAll("input, textarea")];
@@ -147,7 +130,7 @@
       fields.find((field) => !field.validity.valid)?.focus();
       return;
     }
-    formFeedback.textContent = "Your details look good, but this demo cannot send messages yet. Please email hello@example.com directly.";
+    formFeedback.textContent = "Your details look good, but this demo cannot send messages yet. Please email khanparaprit3@gmail.com directly.";
     formFeedback.classList.remove("is-error");
   });
 
